@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ClaudiaCandelasOvied\\source\\repos\\Examen_DI_2EV_DAM2_Linkia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|C:\\Users\\ClaudiaCandelasOvied\\source\\repos\\Examen_DI_2EV_DAM2_Linkia\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|c:\\users\\claudiacandelasovied\\source\\repos\\examen_di_2ev_dam2_linkia\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|c:\\users\\claudiacandelasovied\\source\\repos\\examen_di_2ev_dam2_linkia\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|C:\\Users\\ClaudiaCandelasOvied\\source\\repos\\Examen_DI_2EV_DAM2_Linkia\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|c:\\users\\claudiacandelasovied\\source\\repos\\examen_di_2ev_dam2_linkia\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79173A8B-4B0A-441C-981B-3C9A351CC800}|PruebaExamen00.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ClaudiaCandelasOvied\\source\\repos\\Examen_DI_2EV_DAM2_Linkia\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ClaudiaCandelasOvied\\source\\repos\\Examen_DI_2EV_DAM2_Linkia\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwG0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T11:26:54.769Z",
               "IsPinned": true,
@@ -40,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ClaudiaCandelasOvied\\source\\repos\\Examen_DI_2EV_DAM2_Linkia\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -53,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\ClaudiaCandelasOvied\\source\\repos\\Examen_DI_2EV_DAM2_Linkia\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",

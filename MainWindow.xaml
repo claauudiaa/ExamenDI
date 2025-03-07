@@ -7,21 +7,52 @@
         xmlns:local="clr-namespace:PruebaExamen00"
         mc:Ignorable="d"
         Style="{StaticResource MaterialDesignWindow}"
-        Title="LinkiaGram by Metalex84" Height="600" Width="300">
+        Title="LinkiaGram by Metalex84" Height="600" Width="300" ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0.15*"/>
             <RowDefinition Height="0.85*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Vertical" Grid.Row="0" Background="Black">
+        <StackPanel Orientation="Vertical" Grid.Row="0" Background="White" x:Name="encabezado">
             <UniformGrid Columns="2">
-                <TextBlock Text="LinkiaGram" HorizontalAlignment="Center"  VerticalAlignment="Center" Padding="10" Style="{StaticResource MaterialDesignSubtitle1TextBlock}" FontWeight="Bold"/>
-                <Button x:Name="ToggleMode" Cursor="Hand" Style="{StaticResource MaterialDesignFlatButton}">
-                    <materialDesign:PackIcon Kind="Lightbulb"/>
-                </Button>
+                <TextBlock Text="LinkiaGram" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10" 
+               Style="{StaticResource MaterialDesignSubtitle1TextBlock}" FontWeight="Bold" x:Name="titulo"/>
+
+                <ToggleButton x:Name="ToggleMode" Cursor="Hand" Width="50" Height="25" BorderThickness="0" Unchecked="ToggleMode_Unchecked" Checked="ToggleMode_Checked">
+                    <ToggleButton.Style>
+                        <Style TargetType="ToggleButton">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="ToggleButton">
+                                        <Grid>
+                                            <Border Width="50" Height="25" Background="#4B0081" CornerRadius="15" Name="fondo"/>
+                                            <Border x:Name="Slider" Width="22" Height="22" Background="White" CornerRadius="11"
+                                        HorizontalAlignment="Left" Margin="2">
+                                                <Image x:Name="Icono" Source="sol.png" Width="16" Height="16" 
+                                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                            </Border>
+                                        </Grid>
+
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsChecked" Value="True">
+                                                <Setter TargetName="Slider" Property="HorizontalAlignment" Value="Right"/>
+                                                <Setter TargetName="Icono" Property="Source" Value="luna.png"/>
+                                            </Trigger>
+                                            <Trigger Property="IsChecked" Value="False">
+                                                <Setter TargetName="Slider" Property="HorizontalAlignment" Value="Left"/>
+                                                <Setter TargetName="Icono" Property="Source" Value="sol.png"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </ToggleButton.Style>
+                </ToggleButton>
             </UniformGrid>
-            <UniformGrid Background="Black" Grid.Row="1" Columns="4">
+
+            <UniformGrid Background="white" Grid.Row="1" Columns="4" x:Name="botonera">
                 <Button Style="{StaticResource MaterialDesignFlatButton}" Margin="10">
                     <materialDesign:PackIcon Kind="Home"/>
                 </Button>
@@ -36,8 +67,9 @@
                 </Button>
             </UniformGrid>
         </StackPanel>
+
         <ScrollViewer Grid.Row="1">
-            <StackPanel Background="Black">
+            <StackPanel Background="White" x:Name="panel">
 
                 <Border Margin="10" Padding="10" CornerRadius="5">
                     <StackPanel>
@@ -56,9 +88,9 @@
 
                 <Border Margin="10" Padding="10" CornerRadius="5">
                     <StackPanel>
-                        <TextBlock Text="Hormonauta23" Style="{StaticResource MaterialDesignCaptionTextBlock}"/>
-                        <Image Source="gym.png" Height="200" Stretch="UniformToFill"/>
-                        <TextBlock Text="No pain, no gain." Style="{StaticResource MaterialDesignTextBlock}"/>
+                        <TextBlock Text="Claudia24" Style="{StaticResource MaterialDesignCaptionTextBlock}"/>
+                        <Image Source="perro.png" Height="200" Stretch="UniformToFill"/>
+                        <TextBlock Text="Perro y sopa. ¿Qué más necesitas?" Style="{StaticResource MaterialDesignTextBlock}"/>
                     </StackPanel>
                 </Border>
 
